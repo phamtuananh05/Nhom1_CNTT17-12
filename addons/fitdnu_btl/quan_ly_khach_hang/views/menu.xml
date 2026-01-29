@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_khach_hang_root"
+              name="Khách hàng"
+              sequence="30"/>
+
+    <menuitem id="menu_khach_hang"
+              name="Danh sách khách hàng"
+              parent="menu_khach_hang_root"
+              action="action_khach_hang"/>
+</odoo>
